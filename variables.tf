@@ -186,6 +186,7 @@ variable "site_location" {
     country_code = string
     state_code   = optional(string)
     timezone     = string
+    address      = optional(string)
   })
 }
 
