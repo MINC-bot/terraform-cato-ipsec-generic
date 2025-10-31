@@ -184,7 +184,7 @@ variable "site_location" {
   type = object({
     city         = string
     country_code = string
-    state_code   = string
+    state_code   = optional(string)
     timezone     = string
   })
 }
